@@ -16,7 +16,7 @@ body{
    
     margin: 0 auto;
     
-    padding-bottom: 40px;
+    padding-bottom: 10px;
     
 }
 .img_container{
@@ -32,8 +32,8 @@ body{
 
 }
 img{
-    width: 400px;
-    height: 500px;
+    width: 40rem;
+    height: 50rem;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
  
@@ -45,7 +45,7 @@ img{
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     width: 100%;
-    height: 500px;
+    max-height: 50rem;
 }
 .form_discription{
  text-align: center;
@@ -65,18 +65,21 @@ img{
   }
 .form div{
     margin-bottom: 20px;
-    font-size: 2rem;
+    font-size: 2.3rem;
 }
 .label{
   margin-right: 39px;
   color: #555;
 }
+label:hover{
+    color: #076956;
+}
 .unique{
-    margin-right: 24px;
+    margin-right: 20px;
     color: #555;
 }
 .unique2{
-    margin-right: 28px;
+    margin-right: 24px;
     color: #555;
 }
 .form_btns_container{
@@ -86,13 +89,22 @@ img{
 input[type="submit"]{
     width: 10rem;
     border: none;
-    background-color: #076956;
+    /* background-color: #076956; */
+    background: linear-gradient(to right ,#bdd8d2 , #076956 , #bdd8d2 );
     border-radius: 3px;
     color: #fff;
+}
+input[type="submit"]:hover{
+   
+    background: linear-gradient(to right ,#076956,  #bdd8d2 , #076956 );
+    color: #555;
+ 
 }
 input{
     padding: 7px;
     text-align: center;
+    box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 7px;
 }
 
 
