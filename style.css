@@ -85,6 +85,10 @@ img{
 }
 input[type="submit"]{
     width: 10rem;
+    border: none;
+    background-color: #076956;
+    border-radius: 3px;
+    color: #fff;
 }
 input{
     padding: 7px;

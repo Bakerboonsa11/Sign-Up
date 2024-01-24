@@ -23,11 +23,11 @@
         <form action="#" method="get" class="form">
             <div>
                 <label class="label"  for="fname">Name:</label>
-                <input type="text" name="" id="fname" required>
+                <input type="text" name="" id="fname" placeholder="Name.." required>
             </div>
             <div>
                 <label class="label"   for="email">Email:</label>
-                <input type="email" name="" id="email" required>
+                <input type="email" name="" id="email" placeholder="XXXXXX@gmail.com" required>
             </div>
             <div>
                 <label  class="label"  for="">Gender:</label>
@@ -38,18 +38,18 @@
             </div>
             <div>
                 <label  class ="label" for="phone">Phone:</label>
-                <input type="tel" name="" id="phone">
+                <input type="tel" name="" id="phone" placeholder="+251...."  pattern="^251\d+$" required>
             </div>
             <div>
                 <label class="unique" for="pass">Password:</label>
-                 <input type="password" id="pass"   pattern="^[a-zA-Z_]+$">
+                 <input type="password" id="pass"   pattern="^[a-zA-Z_]+$" placeholder="xxxxxxxx">
             </div>
             <div>
                 <label class ="unique2" for="confpassword">confrum:</label>
-                <input type="" name="" id="confpassword">
+                <input type="" name="" id="confpassword"  pattern="^[a-zA-Z_]+$" placeholder="xxxxxxxx">
             </div>
             <div class="form_btns_container">
-               <input type="submit">
+               <input type="Submit">
            </div>
         </form>
               
