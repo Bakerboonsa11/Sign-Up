@@ -22,7 +22,7 @@
             
         <form action="#" class="form">
             <div>
-                <label for="fname">fName</label>
+                <label for="fname">Name</label>
                 <input type="text" name="" id="fname" required>
             </div>
             <div>
@@ -40,8 +40,9 @@
                 <input type="tel" name="" id="phone">
             </div>
             <div>
-                <label for="password">password</label>
-                <input type="password" name="" id="password">
+                <label for="pass">password</label>
+                 <input type="password" id="pass" minlength="8" maxlength="8" 
+                pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*()])[a-zA-Z\d!@#$%^&*()]+$" required>
             </div>
             <div>
                 <label for="confpassword">Confirm</label>
