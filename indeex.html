@@ -20,33 +20,32 @@
             </div>
 
             
-        <form action="#" class="form">
+        <form action="#" method="get" class="form">
             <div>
-                <label for="fname">Name</label>
+                <label class="label"  for="fname">Name:</label>
                 <input type="text" name="" id="fname" required>
             </div>
             <div>
-                <label for="email">Email</label>
+                <label class="label"   for="email">Email:</label>
                 <input type="email" name="" id="email" required>
             </div>
             <div>
-                <label for="">Gender</label>
+                <label  class="label"  for="">Gender:</label>
                 <span><input type="radio" name="radio" checked> Male </span>
-                <span><input type="radio" name="radio"> Female </span>
+                <span><input type="radio" name="radio"> Female</span>
                 
                 
             </div>
             <div>
-                <label for="phone">phone</label>
+                <label  class ="label" for="phone">Phone:</label>
                 <input type="tel" name="" id="phone">
             </div>
             <div>
-                <label for="pass">password</label>
-                 <input type="password" id="pass" minlength="8" maxlength="8" 
-                pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*()])[a-zA-Z\d!@#$%^&*()]+$" required>
+                <label class="unique" for="pass">Password:</label>
+                 <input type="password" id="pass"   pattern="^[a-zA-Z_]+$">
             </div>
             <div>
-                <label for="confpassword">Confirm</label>
+                <label class ="unique2" for="confpassword">confrum:</label>
                 <input type="" name="" id="confpassword">
             </div>
             <div class="form_btns_container">

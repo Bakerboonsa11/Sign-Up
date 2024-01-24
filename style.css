@@ -33,7 +33,7 @@ body{
 }
 img{
     width: 400px;
-    height: 400px;
+    height: 500px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
  
@@ -45,7 +45,7 @@ img{
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     width: 100%;
-    height: 400px;
+    height: 500px;
 }
 .form_discription{
  text-align: center;
@@ -67,27 +67,41 @@ img{
     margin-bottom: 20px;
     font-size: 2rem;
 }
-.form label{
-  margin-right: 20px;
+.label{
+  margin-right: 39px;
   color: #555;
+}
+.unique{
+    margin-right: 24px;
+    color: #555;
+}
+.unique2{
+    margin-right: 28px;
+    color: #555;
 }
 .form_btns_container{
     text-align: center;
   
 }
-
-input{
-    appearance: none;
-    background-color:#fff;
-    border: 1px solid #555;
-    border-radius: 7px;
+input[type="submit"]{
+    width: 10rem;
 }
+input{
+    padding: 7px;
+    text-align: center;
+}
+
+
 input[type="radio"]{
     appearance: none;
     width: 20px;
     height: 20px;
     position: relative;
+    background-color:#fff;
+    border: 1px solid #555;
+    border-radius: 7px;
 }
+
 
  span{
     color: #076956;
