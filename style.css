@@ -88,6 +88,15 @@ input[type="radio"]{
     height: 20px;
     position: relative;
 }
+
+ span{
+    color: #076956;
+    font-size: small;
+    
+}
+input[type="radio"]:last-child{
+   margin-left: 10px;
+}
 input[type="radio"]::after{
      content: "";
      width: 15px;
