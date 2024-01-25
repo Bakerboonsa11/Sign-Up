@@ -142,3 +142,6 @@ input[type="radio"]::after{
 input[type="radio"]:checked::after{
     opacity: 1;
 }
+input:invalid{
+    border: 1px solid red;
+}
