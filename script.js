@@ -1,6 +1,9 @@
 const passwordInput = document.getElementById('pass');
 let form = document.querySelector("form");
 let input_element = document.querySelectorAll("input");
+let sub = document.querySelector("sub");
+let result = document.querySelector("result");
+
 
 
 // passwordInput.addEventListener('input', function() {
@@ -18,35 +21,49 @@ input_element.forEach(function(element) {
       }
     });
   });
-
+ 
+  
+ 
   function showerror(element){
     if (element.validity.valueMissing) {
       
-        element.setCustomValidity( "You have to enter something.")
+        element.setCustomValidity( "required")
        
       } else if (element.validity.typeMismatch) {
       
-        element.setCustomValidity( "Entered type value needs  ")
+        element.setCustomValidity( `Enter the required type ${element.type}`)
       
       } else if (element.validity.tooShort) {
      
-        element.setCustomValidity(`Email should be at least ${element.minLength} characters; you entered ${email.value.length}.`)
+        element.setCustomValidity(`it should be at least ${element.minLength} characters; you entered ${email.value.length}.`)
 
       }
       else if (element.validity.tooLong) {
       
-        element.setCustomValidity(`Email should be at least ${element.maxLength} characters; you entered ${email.value.length}.`)
+        element.setCustomValidity(`it should be at least ${element.maxLength} characters; you entered ${email.value.length}.`)
    
       }
+      
       else if (element.validity.patternMismatch) {
-        // If the data is too short,
-        // display the following error message.
-        element.setCustomValidity(`pattern should include this +251 format`)
-   
+                if(element.type==tel){  
+                     element.setCustomValidity(`pattern should include +251 this format`)
+                    }
+            
+                    else{
+                        element.setCustomValidity(`pattern should include ${element.pattern}this format`)
+                      }
       }
+     
     } 
     
-     
+sub.addEventListener("click",function(event){
+    // window.location.reload();
+    alert("gggg")
+    event.preventDefault()
+    result.textContent="registered "
+    result.style.opacity = "1";
+
+}); 
     
  
 
