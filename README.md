@@ -14,7 +14,7 @@
 
 ## Screenshots
 
-  <img src="![Alt text](<img/Screenshot from 2024-01-25 14-22-41.png>)" alt="">
+  <img src="img/Screenshot from 2024-01-25 14-22-41.png" alt="">
 
 ## Technologies Used
 
