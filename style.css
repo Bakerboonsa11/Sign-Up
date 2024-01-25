@@ -145,3 +145,9 @@ input[type="radio"]:checked::after{
 input:invalid{
     border: 1px solid red;
 }
+input:focus{
+    outline: none;
+}
+input:valid:user-valid{
+    box-shadow: inset 2px 2px 4px #077962d8;
+}
