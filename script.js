@@ -56,14 +56,6 @@ input_element.forEach(function(element) {
      
     } 
     
-sub.addEventListener("click",function(event){
-    // window.location.reload();
-    alert("gggg")
-    event.preventDefault()
-    result.textContent="registered "
-    result.style.opacity = "1";
-
-}); 
-    
+ 
  
 
