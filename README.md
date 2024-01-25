@@ -14,7 +14,7 @@
 
 ## Screenshots
 
-🖼️ </img src="img/screnshoot.png">
+  <img src="![](img/screnshoot.png)" alt="">
 
 ## Technologies Used
 
